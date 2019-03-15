@@ -1,0 +1,8 @@
+“Cannot connect to ST-LINK!” Error Message
+1.) Disconnect your board from usb or other voltage supply.
+2.) Connect the BOOT0 Pin with High (3V).
+3.) Plugin the usb cable again.
+4.) Download a write programm to the board which doesn’t configure the PA11 and PA12 Pins.
+5.) Disconnect the usb again.
+6.) Disconnect the BOOT0 from High (3V) again.
+7.) Plugin the USB again and see if the board works normal again.
